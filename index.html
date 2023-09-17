@@ -16,7 +16,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,22 +26,25 @@
       Justin Z. Tam | Computer Science PhD Student at Lehigh University
     </title>
 
-    <meta name="description" content="Add small description of yourslef.">
+    <meta name="description" content="Add small description of yourslef." />
     <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
     <meta name="keywords" content="Machine learning" />
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-
     <!-- ***** Header ***** -->
 
     <header class="header" role="banner" id="top">
       <div class="row">
         <nav class="nav" role="navigation">
           <ul class="nav__items">
-            <li class="nav__item"><a href="#work" class="nav__link">Publications</a></li>
-            <li class="nav__item"><a href="#clients" class="nav__link">Projects</a></li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Publications</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#clients" class="nav__link">Projects</a>
+            </li> -->
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
             </li>
@@ -59,34 +61,40 @@
             <span>Justin Z. Tam</span>
           </h1>
           <!-- Put a small paragraph about yourself -->
-          <p>Computer Science Ph.D. Student at Lehigh University</p>
+          <p>
+            Computer Science PhD Student at Lehigh University, Specialization in
+            Structural Bioinformatics
+          </p>
           <!-- <a href="#contact" class="btn btn--pink">Get in touch</a> -->
         </div>
       </div>
     </header>
 
     <main role="main">
-
       <!-- ***** Work ***** -->
 
       <section class="work" id="work">
         <div class="row">
           <h2>Publications</h2>
           <div class="work__boxes">
-
             <!-- Each div with the work__box class is a project. -->
             <div class="work__box">
               <div class="work__text">
                 <h3>
-                  A Containerization Framework for Bioinformatics Software to Advance Scalability, Portability, and
-                  Maintainability.
+                  A Containerization Framework for Bioinformatics Software to
+                  Advance Scalability, Portability, and Maintainability.
                 </h3>
-                <h4><i>In 14th ACM International Conference on Bioinformatics, Computational Biology and Health
-                    Informatics (BCB ’23),
-                    September 3–6, 2023</i></h4>
+                <h4>
+                  <i
+                    >In 14th ACM International Conference on Bioinformatics,
+                    Computational Biology and Health Informatics (BCB ’23),
+                    September 3–6, 2023</i
+                  >
+                </h4>
                 <p>
-                  A full-stack web development project focused on the containerization and abstraction of Bioinformatics
-                  software to make web development easier for researchers.
+                  A full-stack web development project focused on the
+                  containerization and abstraction of Bioinformatics software to
+                  make web development easier for researchers.
                 </p>
                 <!-- <ul class="work__list"> -->
                 <!-- <li>Assembled a graph neural network pipeline for analyzing hydrogen bond topology in proteins.</li>
@@ -95,32 +103,49 @@
                 <!-- </ul> -->
 
                 <div class="work__links">
-                  <a href="https://viewer-backend-dev-sqrlv2g2yq-uc.a.run.app/" target="_blank" class="link__text">
+                  <a
+                    href="https://viewer-backend-dev-sqrlv2g2yq-uc.a.run.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
                     Website<span>&rarr;</span>
                   </a>
                   <!-- <a href="https://www.mdpi.com/2218-273X/12/11/1589" target="_blank" class="link__text">
                   Paper Link <span>&rarr;</span>
                 </a> -->
                   <p>Paper Link Coming Soon</p>
-                  <a href="https://github.com/LehighInfolab/HBcompare" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <a
+                    href="https://github.com/LehighInfolab/HBcompare"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
                   </a>
                 </div>
               </div>
               <div class="work__image-box">
-                <img src="./images/pub_images/viewer-example.png" class="work__image" alt="Project 3" />
+                <img
+                  src="./images/pub_images/viewer-example.png"
+                  class="work__image"
+                  alt="Project 3"
+                />
               </div>
             </div>
-
 
             <div class="work__box">
               <div class="work__text">
                 <h3>
-                  HBcompare: Classifying Ligand Binding Preferences with Hydrogen Bond Topology
+                  HBcompare: Classifying Ligand Binding Preferences with
+                  Hydrogen Bond Topology
                 </h3>
                 <h4><i>Biomolecules, MDPI, Oct 28, 2022</i></h4>
                 <p>
-                  A graph neural network approach to classifying hydrogen bond topology.
+                  A graph neural network approach to classifying hydrogen bond
+                  topology.
                 </p>
                 <!-- <ul class="work__list"> -->
                 <!-- <li>Assembled a graph neural network pipeline for analyzing hydrogen bond topology in proteins.</li>
@@ -129,28 +154,46 @@
                 <!-- </ul> -->
 
                 <div class="work__links">
-                  <a href="https://www.mdpi.com/2218-273X/12/11/1589" target="_blank" class="link__text">
+                  <a
+                    href="https://www.mdpi.com/2218-273X/12/11/1589"
+                    target="_blank"
+                    class="link__text"
+                  >
                     Paper Link <span>&rarr;</span>
                   </a>
-                  <a href="https://github.com/LehighInfolab/HBcompare" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <a
+                    href="https://github.com/LehighInfolab/HBcompare"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
                   </a>
                 </div>
               </div>
               <div class="work__image-box">
-                <img src="./images/pub_images/Framework_new.png" class="work__image" alt="Project 3" />
+                <img
+                  src="./images/pub_images/Framework_new.png"
+                  class="work__image"
+                  alt="Project 3"
+                />
               </div>
             </div>
 
             <div class="work__box">
               <div class="work__text">
                 <h3>
-                  Analysis of Protein-Protein Interactions for Intermolecular Bond Prediction
+                  Analysis of Protein-Protein Interactions for Intermolecular
+                  Bond Prediction
                 </h3>
                 <h4><i>Molecules, MDPI, Sep 21, 2022</i></h4>
                 <p>
-                  Protein-Protein Interaction analysis using intermolecular bond prediction, mapped using coordinate
-                  structure and validated using the SKEMPI 2.0 data set.
+                  Protein-Protein Interaction analysis using intermolecular bond
+                  prediction, mapped using coordinate structure and validated
+                  using the SKEMPI 2.0 data set.
                 </p>
                 <!-- <ul class="work__list">
                 <li>HTML</li>
@@ -160,28 +203,50 @@
               </ul> -->
 
                 <div class="work__links">
-                  <a href="https://www.mdpi.com/1420-3049/27/19/6178" target="_blank" class="link__text">
+                  <a
+                    href="https://www.mdpi.com/1420-3049/27/19/6178"
+                    target="_blank"
+                    class="link__text"
+                  >
                     Paper Link <span>&rarr;</span>
                   </a>
-                  <a href="https://github.com/LehighInfolab/DiffBond-V2" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <a
+                    href="https://github.com/LehighInfolab/DiffBond-V2"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
                   </a>
                 </div>
               </div>
               <div class="work__image-box">
-                <img src="./images/pub_images/ppi_analysis.png" class="work__image" alt="Project 2" />
+                <img
+                  src="./images/pub_images/ppi_analysis.png"
+                  class="work__image"
+                  alt="Project 2"
+                />
               </div>
             </div>
 
             <div class="work__box">
               <div class="work__text">
                 <h3>
-                  DiffBond: A Method for Predicting Intermolecular Bond Formation
+                  DiffBond: A Method for Predicting Intermolecular Bond
+                  Formation
                 </h3>
-                <h4><i>2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), IEEE, Dec 9,
-                    2021</i></h4>
+                <h4>
+                  <i
+                    >2021 IEEE International Conference on Bioinformatics and
+                    Biomedicine (BIBM), IEEE, Dec 9, 2021</i
+                  >
+                </h4>
                 <p>
-                  An exploration of intermolecular bond topology in Protein-Protein Interactions.
+                  An exploration of intermolecular bond topology in
+                  Protein-Protein Interactions.
                 </p>
                 <!-- <ul class="work__list">
                 <li>HTML</li>
@@ -191,16 +256,32 @@
               </ul> -->
 
                 <div class="work__links">
-                  <a href="https://ieeexplore.ieee.org/document/9669850" target="_blank" class="link__text">
+                  <a
+                    href="https://ieeexplore.ieee.org/document/9669850"
+                    target="_blank"
+                    class="link__text"
+                  >
                     Paper Link <span>&rarr;</span>
                   </a>
-                  <a href="https://github.com/LehighInfolab/DiffBond" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <a
+                    href="https://github.com/LehighInfolab/DiffBond"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
                   </a>
                 </div>
               </div>
               <div class="work__image-box">
-                <img src="./images/pub_images/bar_bar.png" class="work__image" alt="Project 1" />
+                <img
+                  src="./images/pub_images/bar_bar.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
               </div>
             </div>
           </div>
@@ -222,7 +303,8 @@
           <img src="./images/chippy.png" class="client__logo" alt="Company 1" /> -->
       <!-- </div>
       </div>
-    </section> --> -->
+    </section> -->
+      -->
 
       <!-- ***** About ***** -->
 
@@ -233,19 +315,26 @@
             <div class="about__text">
               <!-- Replace the below paragraph with info about yourself -->
               <p>
-                I am a 4th year PhD student in Computer Science at Lehigh University. Specifically, my subfield is in structural
-                bioinformatics focusing on analysis and prediction of 3D protein structures. 
-                <br> <br>
-                I started out as a Math major in pre-medicine at Skidmore College, but I found my passion was truly in problem-solving no matter the context. 
-                My math and biochemistry background truly honed my expertise in Computational Biology research.
-                That is how I ended up joining Dr. Brian Chen's Informatics Lab at Lehigh University as a PhD student.
+                I am a 4th year PhD student in Computer Science at Lehigh
+                University. Specifically, my subfield is in structural
+                bioinformatics focusing on analysis and prediction of 3D protein
+                structures.
+                <br />
+                <br />
+                I started out as a Math major in pre-medicine at Skidmore
+                College, but I found my passion was truly in problem-solving no
+                matter the context. My math and biochemistry background truly
+                honed my expertise in Computational Biology research. That is
+                how I ended up joining Dr. Brian Chen's Informatics Lab at
+                Lehigh University as a PhD student.
 
-                <br> <br>
-                My work focuses on developing computational methods for protein structure prediction and
-                function annotation. Towards this end, I utilize skills in Machine Learning methods, 3D modelling, full
-                stack web development, and wet lab protein research to fully demonstrate my methods at Lehigh
-                University’s Informatics Lab.
-                
+                <br />
+                <br />
+                My work focuses on developing computational methods for protein
+                structure prediction and function annotation. Towards this end,
+                I utilize skills in Machine Learning methods, 3D modelling, full
+                stack web development, and wet lab protein research to fully
+                demonstrate my methods at Lehigh University’s Informatics Lab.
               </p>
               <!-- Provide a link to your resume -->
               <a href="Justin_CV_V2.pdf" class="btn">My CV</a>
@@ -267,7 +356,8 @@
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            If you are looking for someone with expertise in Machine Learning methods and applications, you can reach me by email.
+            If you are looking for someone with expertise in Machine Learning
+            methods and applications, you can reach me by email.
           </p>
           <!-- Replace the email with yours -->
           <a href="jzt320@lehigh.edu" class="btn">jzt320@lehigh.edu</a>
@@ -281,46 +371,63 @@
       <div class="row">
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
-          <li class="footer__social-link-item">
+          <!-- <li class="footer__social-link-item">
             <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
               <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
             </a>
-          </li>
+          </li> -->
           <li class="footer__social-link-item">
-            <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-              <img src="./images/github.svg" class="footer__social-image" alt="Github">
+            <a href="https://github.com/jtam97" title="Link to Github Profile">
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
             </a>
           </li>
-          <li class="footer__social-link-item">
+          <!-- <li class="footer__social-link-item">
             <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
               <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
             </a>
-          </li>
+          </li> -->
           <li class="footer__social-link-item">
-            <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-              <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
-                alt="Linkedin">
+            <a href="https://www.linkedin.com/in/justin-z-tam/">
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
             </a>
           </li>
         </ul>
 
         <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
         <p>
-          &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+          &copy; 2020 - Template designed & developed by
+          <a href="https://nisar.dev" class="link">Nisar</a>.
         </p>
         <div class="footer__github-buttons">
           <iframe
             src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-            frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+            frameborder="0"
+            scrolling="0"
+            width="170"
+            height="20"
+            title="Watch Portfolio Template on GitHub"
+          >
           </iframe>
         </div>
       </div>
     </footer>
 
     <a href="#top" class="back-to-top" title="Back to Top">
-      <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
     </a>
     <script src="./index.js"></script>
   </body>
-
 </html>
