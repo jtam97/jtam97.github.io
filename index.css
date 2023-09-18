@@ -470,6 +470,10 @@ body:not(.user-is-tabbing) a:focus {
   flex: 0 0 50%;
 }
 
+.education__text {
+  flex: 0 0 100%;
+}
+
 .work__list {
   /* list-style-type: square; */
   list-style-position: inside;
