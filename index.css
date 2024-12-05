@@ -622,6 +622,41 @@ body:not(.user-is-tabbing) a:focus {
   .work__box:not(:last-child) {
     margin-bottom: 20rem;
   }
+
+  /* Update the about section styles for mobile */
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text {
+    width: 100%;
+    text-align: center;
+    margin-top: var(--gutter-normal);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__text p {
+    order: 1;
+  }
+
+  .about__text .btn {
+    order: 2;
+    margin-top: var(--gutter-normal);
+    align-self: center;
+  }
+
+  .about__photo-container {
+    width: 85%;
+    max-width: 300px;
+    margin: 0;
+    order: -1;
+  }
+
+  .about__photo {
+    width: 100%;
+  }
 }
 
 /* Small mobile devices (up to 350px) */
