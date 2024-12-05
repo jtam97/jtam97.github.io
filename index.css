@@ -552,50 +552,18 @@ body:not(.user-is-tabbing) a:focus {
 /* Tablets and Mobile (up to 768px) */
 @media (max-width: 768px) {
   /* Navigation styles */
-  .nav {
-    justify-content: center;
-    padding: 1rem 0;
-    margin-bottom: 2rem;
-  }
-
   .nav__items {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    gap: 0.2rem;
-    padding-bottom: 1rem;
+    font-size: 1.8rem;
   }
 
-  .nav__item {
-    margin: 0;
-    text-align: center;
-  }
-
-  .nav__item:not(:last-child) {
-    margin: 0;
-  }
-
-  .nav__link {
-    padding: 0.2rem 0;
-    font-size: 2rem;
-    width: 100%;
-    display: block;
-  }
-
-  /* Header styles */
+  Header styles
   .header {
     text-align: center;
     background-attachment: scroll;
   }
 
-  .header__text-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 
   .header__text {
     position: absolute;
@@ -616,7 +584,7 @@ body:not(.user-is-tabbing) a:focus {
     font-size: 4rem;
     word-wrap: break-word;
     margin-bottom: 1rem;
-  }
+  } */
 
   /* Work section adjustments */
   .work__box:not(:last-child) {
