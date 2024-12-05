@@ -407,7 +407,7 @@ body:not(.user-is-tabbing) a:focus {
     url("./images/header.jpg");
   height: 100vh;
   background-size: cover;
-  background-position: 0% 0%;
+  background-position: center;
   background-attachment: fixed;
   font-size: var(--font-size-normal);
 }
@@ -428,10 +428,36 @@ body:not(.user-is-tabbing) a:focus {
 @media (max-width: 500px) {
   .header {
     text-align: center;
+    background-attachment: scroll;
+  }
+
+  .header__text {
+    width: 100%;
+    padding: 0 2rem;
+    top: 50%;
   }
 
   .header__text p {
-    transform: scale(0.8);
+    transform: none;
+    font-size: var(--font-size-normal);
+    margin: 1rem auto 2rem;
+    max-width: 100%;
+  }
+
+  .heading-primary {
+    font-size: 4.5rem;
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .heading-primary {
+    font-size: 3.5rem;
+  }
+
+  .header__text p {
+    font-size: var(--font-size-small);
   }
 }
 
@@ -624,4 +650,14 @@ body:not(.user-is-tabbing) a:focus {
   .footer {
     padding: var(--gutter-medium) 0;
   }
+}
+
+.footer__social-icon {
+    font-size: 2rem;
+    color: #777;
+    transition: color .2s;
+}
+
+.footer__social-icon:hover {
+    color: #555;
 }
